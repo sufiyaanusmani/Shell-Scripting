@@ -3,7 +3,7 @@ marks=94
 if [ $marks -gt 90 ];
 then
 	grade="A"
-elif $[ marks -gt 80 ];
+elif [ $marks -gt 80 ];
 then
 	grade="B"
 else
